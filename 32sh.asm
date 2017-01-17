@@ -16,9 +16,6 @@ _start:
 	push esp
 	pop ebx
 
-	push esp
-	pop ebp
-
 	mov al,0x0b
 	int 0x80
 
